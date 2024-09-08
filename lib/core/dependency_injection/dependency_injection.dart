@@ -29,6 +29,10 @@ import '../../movies/domain/usecases/get_movies_usecase.dart';
 import '../../movies/domain/usecases/get_recommendations_usecase.dart';
 import '../../movies/domain/usecases/get_trailer_usecase.dart';
 import '../../movies/presentation/bloc/movies_bloc.dart';
+import '../../search/data/datasources/search_remote_datasource.dart';
+import '../../search/data/repositories/search_repository_impl.dart';
+import '../../search/domain/repositories/search_repository.dart';
+import '../../search/domain/usecases/search_movies_usecase.dart';
 import '../network/network_info.dart';
 
 final sl = GetIt.instance;

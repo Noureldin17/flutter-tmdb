@@ -9,6 +9,8 @@ import '../movies/domain/models/movie_detail_args_model.dart';
 import '../movies/presentation/bloc/movies_bloc.dart';
 import '../movies/presentation/pages/more_movies_page.dart';
 import '../movies/presentation/pages/movie_detail_page.dart';
+import '../search/presentation/bloc/search_bloc.dart';
+import '../search/presentation/pages/search_page.dart';
 import '../utils/pages.dart' as pages;
 import '../core/dependency_injection/dependency_injection.dart' as di;
 

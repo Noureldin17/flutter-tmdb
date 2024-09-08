@@ -10,6 +10,7 @@ import 'package:sizer/sizer.dart';
 import './utils/colors.dart' as colors;
 import './utils/pages.dart' as pages;
 import 'authentication/presentation/bloc/authentication_bloc.dart';
+import 'config/router.dart';
 import 'core/dependency_injection/dependency_injection.dart' as di;
 
 void main() async {
