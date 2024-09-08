@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_cache_manager/flutter_cache_manager.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:flutter_tmdb/movies/presentation/widgets/movie_list_tile.dart';
 import 'package:sizer/sizer.dart';
 import '../../../../utils/colors.dart' as colors;
 import '../../../utils/default_text.dart';
+import '../../domain/models/more_movies_args_model.dart';
+import '../../domain/models/movie_model.dart';
+import '../bloc/movies_bloc.dart';
 import '../widgets/gradient_divider.dart';
+import '../widgets/movie_list_tile.dart';
 
 class MoreMoviesPage extends StatefulWidget {
   const MoreMoviesPage({super.key, required this.moreMoviesArgs});

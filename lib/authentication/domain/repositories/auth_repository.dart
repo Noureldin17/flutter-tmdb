@@ -1,5 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_tmdb/core/error/faliures.dart';
+import '../../../movies/domain/models/login_states_model.dart';
+import '../../../movies/domain/models/movie_model.dart';
 import '../models/tmdb_user_model.dart';
 
 abstract class AuthenticationRepo {

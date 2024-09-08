@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:movies_app/utils/default_text.dart';
 import 'package:sizer/sizer.dart';
 import '../../../../utils/colors.dart' as colors;
+import '../../../utils/default_text.dart';
 
 class MovieDescription extends StatelessWidget {
   const MovieDescription({super.key, required this.overview});

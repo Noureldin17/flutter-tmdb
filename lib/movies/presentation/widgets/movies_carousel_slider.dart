@@ -9,6 +9,8 @@ import 'package:flutter_svg/svg.dart';
 import '../../../../utils/default_text.dart';
 import 'package:sizer/sizer.dart';
 import '../../../../core/api/tmdb_api_constants.dart';
+import '../../domain/models/movie_detail_args_model.dart';
+import '../../domain/models/movie_model.dart';
 
 class MoviesCarouselSlider extends StatefulWidget {
   const MoviesCarouselSlider({

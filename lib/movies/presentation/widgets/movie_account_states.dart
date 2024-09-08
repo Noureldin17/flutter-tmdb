@@ -9,6 +9,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'package:sizer/sizer.dart';
 import '../../../../utils/colors.dart' as colors;
+import '../../../authentication/presentation/bloc/authentication_bloc.dart';
+import '../../../utils/default_text.dart';
 
 class MovieAccountStates extends StatefulWidget {
   const MovieAccountStates(

@@ -10,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:sizer/sizer.dart';
 import '../../../../core/api/tmdb_api_constants.dart';
 import '../../../../utils/colors.dart' as colors;
+import '../../domain/models/movie_detail_args_model.dart';
 import '../bloc/movies_bloc.dart';
 
 class SliverAppBarPage extends StatefulWidget {
