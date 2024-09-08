@@ -9,6 +9,8 @@ import 'package:sizer/sizer.dart';
 import 'package:sticky_headers/sticky_headers/widget.dart';
 import '../../../../utils/colors.dart' as colors;
 import '../../../../utils/pages.dart' as pages;
+import '../../domain/models/more_movies_args_model.dart';
+import '../../domain/models/movie_detail_args_model.dart';
 import '../bloc/movies_bloc.dart';
 
 class MoviesPage extends StatefulWidget {

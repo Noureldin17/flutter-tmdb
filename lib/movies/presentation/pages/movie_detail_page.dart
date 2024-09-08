@@ -3,10 +3,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
+import 'package:flutter_tmdb/movies/presentation/pages/sliver_app_bar_page.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import '../../../../utils/pages.dart' as pages;
 import '../../domain/models/more_movies_args_model.dart';
 import '../../domain/models/movie_detail_args_model.dart';
+import '../bloc/movies_bloc.dart';
+import '../widgets/movie_casts_view.dart';
+import '../widgets/movie_info.dart';
+import '../widgets/movies_scrollview.dart';
+import '../widgets/pod_video_player.dart';
 
 class MovieDetailPage extends StatefulWidget {
   const MovieDetailPage({super.key, required this.movieDetailArgs});

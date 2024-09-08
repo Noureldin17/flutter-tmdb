@@ -7,6 +7,8 @@ import 'package:sizer/sizer.dart';
 import '../../../../utils/colors.dart' as colors;
 import '../../../../utils/default_text.dart';
 import '../../../authentication/presentation/bloc/authentication_bloc.dart';
+import '../widgets/gradient_divider.dart';
+import '../widgets/movie_list_tile.dart';
 
 class WatchListPage extends StatefulWidget {
   const WatchListPage({super.key});
