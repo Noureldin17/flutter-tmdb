@@ -8,6 +8,8 @@ import 'package:sizer/sizer.dart';
 import '../../../../utils/colors.dart' as colors;
 import '../../../../utils/pages.dart' as pages;
 import '../../../../core/api/tmdb_api_constants.dart';
+import '../../domain/models/movie_detail_args_model.dart';
+import '../../domain/models/movie_model.dart';
 
 class MovieListTile extends StatelessWidget {
   MovieListTile(

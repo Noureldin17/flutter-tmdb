@@ -5,6 +5,8 @@ import '../../../../utils/colors.dart' as colors;
 import 'package:pod_player/pod_player.dart';
 import 'package:sizer/sizer.dart';
 
+import '../../domain/models/movie_videos_model.dart';
+
 class YoutubePodPlayer extends StatefulWidget {
   const YoutubePodPlayer({super.key, required this.movieVideo});
   final MovieVideo movieVideo;

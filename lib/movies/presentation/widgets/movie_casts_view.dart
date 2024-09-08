@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
+import 'package:flutter_tmdb/movies/domain/models/movie_credits_model.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:sizer/sizer.dart';

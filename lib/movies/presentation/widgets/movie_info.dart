@@ -9,6 +9,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:sizer/sizer.dart';
 import '../../../../utils/colors.dart' as colors;
 import '../../../core/api/tmdb_api_constants.dart';
+import '../../domain/models/movie_model.dart';
+import '../../domain/models/movies_details_model.dart';
 import '../bloc/movies_bloc.dart';
 import 'gradient_divider.dart';
 
