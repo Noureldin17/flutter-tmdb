@@ -5,6 +5,7 @@ import 'package:equatable/equatable.dart';
 
 import '../../../core/error/faliures.dart';
 import '../../domain/models/login_request_params.dart';
+import '../../domain/models/tmdb_user_model.dart';
 import '../../domain/usecases/add_rating_usecase.dart';
 import '../../domain/usecases/add_to_watchlist_usecase.dart';
 import '../../domain/usecases/check_onboard_usecase.dart';

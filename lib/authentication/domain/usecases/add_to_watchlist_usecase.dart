@@ -1,6 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:movies_app/core/error/failures.dart';
-import 'package:movies_app/features/authentication/domain/repositories/auth_repository.dart';
+
+import '../../../core/error/faliures.dart';
+import '../repositories/auth_repository.dart';
 
 class AddToWatchListUsecase {
   final AuthenticationRepo authenticationRepo;
