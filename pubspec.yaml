@@ -38,6 +38,8 @@ dependencies:
   sizer: ^2.0.15
   google_fonts: ^4.0.0
   flutter_svg: ^1.1.6
+  internet_connection_checker: ^1.0.0+1
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
