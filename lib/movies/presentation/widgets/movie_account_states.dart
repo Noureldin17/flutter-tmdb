@@ -6,8 +6,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:movies_app/features/authentication/presentation/bloc/authentication_bloc.dart';
-import 'package:movies_app/utils/default_text.dart';
+
 import 'package:sizer/sizer.dart';
 import '../../../../utils/colors.dart' as colors;
 

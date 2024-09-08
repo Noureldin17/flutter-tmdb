@@ -2,12 +2,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart';
 import 'package:equatable/equatable.dart';
-import 'package:movies_app/features/movies/domain/usecases/get_account_states_usecase.dart';
-import 'package:movies_app/features/movies/domain/usecases/get_credits_usecase.dart';
-import 'package:movies_app/features/movies/domain/usecases/get_details_usecase.dart';
-import 'package:movies_app/features/movies/domain/usecases/get_movies_usecase.dart';
-import 'package:movies_app/features/movies/domain/usecases/get_recommendations_usecase.dart';
-import 'package:movies_app/features/movies/domain/usecases/get_trailer_usecase.dart';
 
 import '../../../../core/error/failures.dart';
 import '../../domain/models/account_states_model.dart';
