@@ -4,6 +4,7 @@ import 'package:bloc_concurrency/bloc_concurrency.dart';
 import 'package:equatable/equatable.dart';
 
 import '../../../core/error/faliures.dart';
+import '../../../movies/domain/models/movie_model.dart';
 import '../../domain/models/login_request_params.dart';
 import '../../domain/models/tmdb_user_model.dart';
 import '../../domain/usecases/add_rating_usecase.dart';
