@@ -2,10 +2,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart';
 import 'package:equatable/equatable.dart';
-import 'package:movies_app/features/search/domain/usecases/search_movies_usecase.dart';
-
-import '../../../../core/error/failures.dart';
+import '../../../core/error/faliures.dart';
 import '../../../movies/domain/models/movie_model.dart';
+import '../../domain/usecases/search_movies_usecase.dart';
 
 part 'search_event.dart';
 part 'search_state.dart';
